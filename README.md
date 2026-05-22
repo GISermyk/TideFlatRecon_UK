@@ -26,11 +26,7 @@ Annual dynamics in Morecambe Bay, Solway Firth and the Severn Estuary (2019–20
   <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Severn_output.gif" width="300" />
 </p>
 
-*更多河口 GIF 可在此添加…*
 
----
-
-> ⚠️ 提示：GEE 可视化需要 Google Earth Engine 账户才能完全交互。
 
 <img width="1600" height="961" alt="image" src="https://github.com/user-attachments/assets/3735d77b-5a54-43be-bf78-3eda41cd9011" />
 
