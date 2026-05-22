@@ -17,7 +17,7 @@
 这里展示了 UK 主要河口的潮间带变化：
 
 ![Example GIF 1](TideFlatRecon_UK/GIF/wash_output.gif)  
-![Example GIF 2](path/to/your-gif2.gif)  
+![Example GIF 2](TideFlatRecon_UK/GIF/Thames_output.gif)  
 
 *更多河口 GIF 可在此添加…*
 
