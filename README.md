@@ -16,11 +16,9 @@
 <div>
   <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Morecambe_output.gif" width="300" style="display:inline-block; margin-right:10px;" />
   <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Solway_output.gif" width="300" style="display:inline-block; margin-right:10px;" />
-  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Severn_output.gif" width="300" style="display:inline-block;" />
 </div>
 
 <div style="margin-top:10px;">
   <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/wash_output.gif" width="300" style="display:inline-block; margin-right:10px;" />
   <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Thames_output.gif" width="300" style="display:inline-block; margin-right:10px;" />
-  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Severn_output.gif" width="300" style="display:inline-block;" />
 </div>
