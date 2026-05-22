@@ -15,19 +15,14 @@
 ## 🏞️ 河口 GIF 展示
 
 Annual dynamics in Morecambe Bay, Solway Firth and the Severn Estuary (2019–2024)
-<p float="left">
-  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Morecambe_output.gif" width="300" />
-  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Solway_output.gif" width="300" />
-  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Severn_output.gif" width="300" />
-</p>
-<p float="left">
-  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/wash_output.gif" width="300" />
-  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Thames_output.gif" width="300" />
-  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Severn_output.gif" width="300" />
-</p>
+<div>
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Morecambe_output.gif" width="300" style="display:inline-block; margin-right:10px;" />
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Solway_output.gif" width="300" style="display:inline-block; margin-right:10px;" />
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Severn_output.gif" width="300" style="display:inline-block;" />
+</div>
 
-
-
-<img width="1600" height="961" alt="image" src="https://github.com/user-attachments/assets/3735d77b-5a54-43be-bf78-3eda41cd9011" />
-
-
+<div style="margin-top:10px;">
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/wash_output.gif" width="300" style="display:inline-block; margin-right:10px;" />
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Thames_output.gif" width="300" style="display:inline-block; margin-right:10px;" />
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Severn_output.gif" width="300" style="display:inline-block;" />
+</div>
