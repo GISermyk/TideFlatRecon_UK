@@ -14,10 +14,16 @@
 
 ## 🏞️ 河口 GIF 展示
 
-这里展示了 UK 主要河口的潮间带变化：
+Annual dynamics in Morecambe Bay, Solway Firth and the Severn Estuary (2019–2024)
 <p float="left">
   <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Morecambe_output.gif" width="300" />
   <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Solway_output.gif" width="300" />
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Severn_output.gif" width="300" />
+</p>
+<p float="left">
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/wash_output.gif" width="300" />
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Thames_output.gif" width="300" />
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Severn_output.gif" width="300" />
 </p>
 
 *更多河口 GIF 可在此添加…*
