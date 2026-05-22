@@ -1,6 +1,4 @@
-# 🇬🇧 UK Tidal Flat DEM Reconstruction
-
-展示我在 UK 潮间带数字高程模型（DEM）重建方面的工作。
+#  UK Tidal Flat DEM Reconstruction
 
 ---
 
