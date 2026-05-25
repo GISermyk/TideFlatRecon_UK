@@ -36,6 +36,11 @@ Fig. 3. Workflow of tidal-flat elevation derived from time-series optical satell
 </tr>
 </table>
 
+<td style="text-align: center; vertical-align: middle;">
+    <img width="500" height="50" alt="image" src="https://github.com/user-attachments/assets/c2e71fc0-a26b-402f-803c-48b36968be27" />
+</td>
+
+
 ## 🌊 Google Earth Engine Visualization
 
 **Dual Tidal Flat Index (DTFI)**  
