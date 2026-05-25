@@ -7,6 +7,10 @@ Here, an optical satellite-based framework was presented for national-scale tida
 - A Statistical Automated Tidal Flat Elevation Extraction from ICESat-2 (STAT-ICE) algorithm was developed to derive reliable reference elevations for proxy calibration. 
 - The multiple optical proxies derived from time-series Sentinel-2 and Landsat-8/9 imagery and the refined ICESat-2 reference elevations were integrated within a random forest framework to generate annual 30 m tidal-flat DEMs across the UK coast from 2019 to 2024.
 
+<p align="center">
+<img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/Fig.3_paper4_new.jpg" width="1000" style="display:inline-block; margin-right:10px;" >
+<p align="left">
+Fig. 3. Workflow of tidal-flat elevation derived from time-series optical satellite imagery. Four tidal-flat elevation proxies (X1–X4) were constructed, including X1: Normalized Annual Exposure Frequency (NAEF); X2: annual mean NDWI derived from Sentinel-2 imagery (NDWImean); X3: annual mean MNDWI derived from Sentinel-2 imagery (MNDWImean); and X4: annual mean Band 8A reflectance derived from Sentinel-2 imagery (B8Amean). Y represents the refined ICESat-2 elevation points.
 
 ## 🌊 Google Earth Engine Visualization
 
