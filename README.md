@@ -17,7 +17,7 @@ Fig. 3. Workflow of tidal-flat elevation derived from time-series optical satell
 
 <table>
 <tr>
-<td align="center" >
+<td align="center">
 <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Morecambe_output_.gif" width="230"><br>
 <b>Morecambe Bay</b>
 </td>
