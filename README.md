@@ -49,8 +49,7 @@ Fig. 1. Workflow of tidal-flat elevation derived from time-series optical satell
 
 **Dual Tidal Flat Index (DTFI)**  
 [View DTFI on GEE](https://minyukui.projects.earthengine.app/view/dtfi)
-<img width="2359" height="1332" alt="image" src="https://github.com/user-attachments/assets/1fab031a-a099-4e13-922c-415b51ecb8f1" />
-
+<img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/papar5_FigS4_combine.jpg" width="1000" style="display:inline-block; margin-right:10px;" >
 
 
 
