@@ -12,6 +12,8 @@ Here, an optical satellite-based framework was presented for national-scale tida
 <p align="left">
 Fig. 3. Workflow of tidal-flat elevation derived from time-series optical satellite imagery. Four tidal-flat elevation proxies (X1–X4) were constructed, including X1: Normalized Annual Exposure Frequency (NAEF); X2: annual mean NDWI derived from Sentinel-2 imagery (NDWImean); X3: annual mean MNDWI derived from Sentinel-2 imagery (MNDWImean); and X4: annual mean Band 8A reflectance derived from Sentinel-2 imagery (B8Amean). Y represents the refined ICESat-2 elevation points.
 
+<img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/Fig.6_paper4.jpg" width="1000" style="display:inline-block; margin-right:10px;" >
+
 ## 🌊 Google Earth Engine Visualization
 
 **Dual Tidal Flat Index (DTFI)**  
