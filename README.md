@@ -1,4 +1,12 @@
 
+# National-scale Tidal Flat DEM Reconstruction Using Optical Satellite Imagery
+Tidal flats, intertidal environments periodically exposed and inundated by tidal fluctuations, play a crucial role in enhancing coastal resilience and maintaining ecosystem
+functioning. However, their rapid morphological changes and challenging field conditions make accurate, frequent mapping of tidal-flat topography over large spatial extents extremely difficult.
+Here, an optical satellite-based framework was presented for national-scale tidal-flat elevation generation. Specifically, 
+- A multiple tidal-flat elevation proxy strategy were proposed to comprehensively characterize tidal-flat morphology. 
+- A Statistical Automated Tidal Flat Elevation Extraction from ICESat-2 (STAT-ICE) algorithm was developed to derive reliable reference elevations for proxy calibration. 
+- The multiple optical proxies derived from time-series Sentinel-2 and Landsat-8/9 imagery and the refined ICESat-2 reference elevations were integrated within a random forest framework to generate annual 30 m tidal-flat DEMs across the UK coast from 2019 to 2024.
+
 
 ## 🌊 Google Earth Engine Visualization
 
