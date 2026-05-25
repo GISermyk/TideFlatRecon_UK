@@ -11,7 +11,7 @@ Here, an optical satellite-based framework was presented for national-scale tida
 <p align="center">
 <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/Fig.3_paper4_new.jpg" width="1000" style="display:inline-block; margin-right:10px;" >
 <p align="left">
-Fig. 3. Workflow of tidal-flat elevation derived from time-series optical satellite imagery. Four tidal-flat elevation proxies (X1–X4) were constructed, including X1: Normalized Annual Exposure Frequency (NAEF); X2: annual mean NDWI derived from Sentinel-2 imagery (NDWImean); X3: annual mean MNDWI derived from Sentinel-2 imagery (MNDWImean); and X4: annual mean Band 8A reflectance derived from Sentinel-2 imagery (B8Amean). Y represents the refined ICESat-2 elevation points.
+Fig. 1. Workflow of tidal-flat elevation derived from time-series optical satellite imagery. Four tidal-flat elevation proxies (X1–X4) were constructed, including X1: Normalized Annual Exposure Frequency (NAEF); X2: annual mean NDWI derived from Sentinel-2 imagery (NDWImean); X3: annual mean MNDWI derived from Sentinel-2 imagery (MNDWImean); and X4: annual mean Band 8A reflectance derived from Sentinel-2 imagery (B8Amean). Y represents the refined ICESat-2 elevation points.
 
 ## 🏞️ Estuary GIF Showcase
 
@@ -43,13 +43,13 @@ Fig. 3. Workflow of tidal-flat elevation derived from time-series optical satell
 
 ## 🌊 Google Earth Engine Visualization
 
-**Dual Tidal Flat Index (DTFI)**  
-[View DTFI on GEE](https://minyukui.projects.earthengine.app/view/dtfi)
-<img width="2359" height="1332" alt="image" src="https://github.com/user-attachments/assets/1fab031a-a099-4e13-922c-415b51ecb8f1" />
-
 **Annual UK Tidal Flat DEM (2019–2024)**  
 [Interactive DEM visualization](https://minyukui.projects.earthengine.app/view/ukdem2019-2024)
 <img width="2559" height="1330" alt="image" src="https://github.com/user-attachments/assets/2f4090fa-09fa-470a-a903-908fcfaa1db6" />
+
+**Dual Tidal Flat Index (DTFI)**  
+[View DTFI on GEE](https://minyukui.projects.earthengine.app/view/dtfi)
+<img width="2359" height="1332" alt="image" src="https://github.com/user-attachments/assets/1fab031a-a099-4e13-922c-415b51ecb8f1" />
 
 
 
