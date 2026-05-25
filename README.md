@@ -15,36 +15,25 @@ Fig. 3. Workflow of tidal-flat elevation derived from time-series optical satell
 
 ## 🏞️ Estuary GIF Showcase
 
+<p align="center">
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Morecambe_output_.gif" width="240"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Solway_output_.gif" width="240"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/wash_output_.gif" width="240"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Thames_output_.gif" width="240"/>
+</p>
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Morecambe_output_.gif" width="240"><br>
-      <b>Morecambe Bay</b>
-    </td>
-
-    <td width="20"></td>
-
-    <td align="center">
-      <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Solway_output_.gif" width="240"><br>
-      <b>Solway Firth</b>
-    </td>
-
-    <td width="20"></td>
-
-    <td align="center">
-      <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/wash_output_.gif" width="240"><br>
-      <b>The Wash</b>
-    </td>
-
-    <td width="20"></td>
-
-    <td align="center">
-      <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/GIF/Thames_output_.gif" width="240"><br>
-      <b>Great Thames Estuary</b>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <b>Morecambe Bay</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Solway Firth</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>The Wash</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Great Thames Estuary</b>
+</p>
 ## 🌊 Google Earth Engine Visualization
 
 **Dual Tidal Flat Index (DTFI)**  
