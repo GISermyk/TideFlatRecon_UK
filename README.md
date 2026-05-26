@@ -1,5 +1,7 @@
-## 🌊 Google Earth Engine Visualization
+
 <img width="2557" height="1320" alt="image" src="https://github.com/user-attachments/assets/12a8c531-b195-4b49-9f4b-bcb82dc563c3" />
+
+🌊 Google Earth Engine Visualization
 [Interactive DEM visualization](https://minyukui.projects.earthengine.app/view/ukdem2019-2024)
 
 ## National-scale Tidal Flat DEM Reconstruction Using Optical Satellite Imagery
