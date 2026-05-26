@@ -1,4 +1,4 @@
-
+<img width="2557" height="1320" alt="image" src="https://github.com/user-attachments/assets/12a8c531-b195-4b49-9f4b-bcb82dc563c3" />
 # National-scale Tidal Flat DEM Reconstruction Using Optical Satellite Imagery
 
 Tidal flats, intertidal environments periodically exposed and inundated by tidal fluctuations, play a crucial role in enhancing coastal resilience and maintaining ecosystem
@@ -45,7 +45,7 @@ Fig. 1. Workflow of tidal-flat elevation derived from time-series optical satell
 
 **Annual UK Tidal Flat DEM (2019–2024)**  
 [Interactive DEM visualization](https://minyukui.projects.earthengine.app/view/ukdem2019-2024)
-<img width="2559" height="1330" alt="image" src="https://github.com/user-attachments/assets/2f4090fa-09fa-470a-a903-908fcfaa1db6" />
+<img width="2559" height="1342" alt="image" src="https://github.com/user-attachments/assets/a8f4f5b7-0048-4c43-bce0-d51d10374d17" />
 
 **Dual Tidal Flat Index (DTFI)**  
 [View DTFI on GEE](https://minyukui.projects.earthengine.app/view/dtfi)
