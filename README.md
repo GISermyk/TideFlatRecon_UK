@@ -50,7 +50,7 @@ Fig. 1. Workflow of tidal-flat elevation derived from time-series optical satell
 **Dual Tidal Flat Index (DTFI)**  
 [View DTFI on GEE](https://minyukui.projects.earthengine.app/view/dtfi)
 <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/papar5_FigS4_combine.jpg" width="1000" style="display:inline-block; margin-right:10px;" >
-Fig. S4. Visualization of DTFI and generated water/non-water binary mapping at five estuaries based on the Sentinel-2 and Landsat 8 images. (a1–a10) True-color Sentinel-2 MSI images (bands 4–3–2) acquired at low tide; (b1–b10) corresponding DTFI visualization results; (c1–c10) NDWI visualization results; and (d1–d10) binary water/non-water maps derived from DTFI > 0.2 and NDWI < 0.2 in the corresponding Sentinel-2 images. (e1–e10) True-color Landsat 8 images (bands 4–3–2) acquired at low tide; (f1–f10) corresponding DTFI visualization results; (g1–g10) NDWI visualization results; and (h1–h10) binary water/non-water maps derived from DTFI > 0.2 and NDWI < 0.2 in the corresponding Landsat 8 images.
+Fig. 2. Visualization of DTFI and generated water/non-water binary mapping at five estuaries based on the Sentinel-2 and Landsat 8 images. (a1–a10) True-color Sentinel-2 MSI images (bands 4–3–2) acquired at low tide; (b1–b10) corresponding DTFI visualization results; (c1–c10) NDWI visualization results; and (d1–d10) binary water/non-water maps derived from DTFI > 0.2 and NDWI < 0.2 in the corresponding Sentinel-2 images. (e1–e10) True-color Landsat 8 images (bands 4–3–2) acquired at low tide; (f1–f10) corresponding DTFI visualization results; (g1–g10) NDWI visualization results; and (h1–h10) binary water/non-water maps derived from DTFI > 0.2 and NDWI < 0.2 in the corresponding Landsat 8 images.
 
 
 
