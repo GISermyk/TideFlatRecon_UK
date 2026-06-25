@@ -18,9 +18,6 @@ Here, an optical satellite-based framework was presented for national-scale tida
 <p align="left">
 Fig. 1. Workflow of tidal-flat elevation derived from time-series optical satellite imagery. Four tidal-flat elevation proxies (X1–X4) were constructed, including X1: Normalized Annual Exposure Frequency (NAEF); X2: annual mean NDWI derived from Sentinel-2 imagery (NDWImean); X3: annual mean MNDWI derived from Sentinel-2 imagery (MNDWImean); and X4: annual mean Band 8A reflectance derived from Sentinel-2 imagery (B8Amean). Y represents the refined ICESat-2 elevation points.
 
-## 🏞️ STAT-ICE algorithm
-<img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/Fig.6_paper4.jpg" width="1000" style="display:inline-block; margin-right:10px;" >
-Fig. 2. Flowchart of Statistical Automated Tidal Flat Elevation Extraction from ICESat-2 (STAT-ICE).
 
 ## 🏞️ Estuary GIF Showcase
 
@@ -48,6 +45,10 @@ Fig. 2. Flowchart of Statistical Automated Tidal Flat Elevation Extraction from 
 <td style="text-align: center; vertical-align: middle;">
     <img width="500" height="50" alt="image" src="https://github.com/user-attachments/assets/c2e71fc0-a26b-402f-803c-48b36968be27" />
 </td>
+
+## 🏞️ STAT-ICE algorithm
+<img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/Fig.6_paper4.jpg" width="1000" style="display:inline-block; margin-right:10px;" >
+Fig. 2. Flowchart of Statistical Automated Tidal Flat Elevation Extraction from ICESat-2 (STAT-ICE).
 
 
 **Dual Tidal Flat Index (DTFI)**  
