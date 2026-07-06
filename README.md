@@ -1,6 +1,6 @@
 # 🌊 National-scale Tidal Flat DEM Reconstruction Using Optical Satellite Imagery
 
-Official implementation of the **Remote Sensing of Environment (RSE, 2026)** paper for reconstructing annual **30 m tidal-flat Digital Elevation Models (DEMs)** across the UK using **Sentinel-2 optical imagery**, **ICESat-2 laser altimetry**, and **machine learning**.
+Official implementation of the **Remote Sensing of Environment (RSE, 2026)** paper for reconstructing annual **30 m tidal-flat Digital Elevation Models (DEMs)** across the UK using **Sentinel-2 and Landsat 8/9 optical imagery**, **ICESat-2 laser altimetry**, and **machine learning**.
 
 [![Paper](https://img.shields.io/badge/Paper-RSE%202026-orange)](https://www.sciencedirect.com/science/article/pii/S0034425726003135)
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
