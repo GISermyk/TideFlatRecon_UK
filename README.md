@@ -47,10 +47,9 @@ Tidal flats change rapidly, and their morphology is difficult to survey in the f
 The reconstruction workflow consists of three components:
 
 - **STAT-ICE** -- an algorithm that automatically extracts tidal-flat elevation measurements from ICESat-2 ATL03/ATL08 observations.
+- **Dual Tidal Flat Index (DTFI)** --a spectral index was developed to delineate tidal flats from turbid water using Sentinel‑2 and Landsat imagery.
 - **Optical elevation proxies** -- annual composites of Normalized Annual Exposure Frequency (NAEF), NDWI, MNDWI, and Sentinel-2 Band 8A reflectance, derived from Sentinel-2 and Landsat imagery in Google Earth Engine.
-- **Random Forest regression** -- combines the optical proxies with the STAT-ICE elevations to produce the annual 30 m tidal-flat DEMs.
-
-The repository also includes the **Dual Tidal Flat Index (DTFI)**, a spectral index for tidal-flat mapping from Sentinel-2 and Landsat imagery.
+- **Random Forest regression** -- combines the optical proxies with the refined ICESat-2 elevations using STAT-ICE to produce the annual 30 m tidal-flat DEMs.
 
 ---
 
