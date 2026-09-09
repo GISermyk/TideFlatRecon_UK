@@ -1,6 +1,6 @@
-# 🌊 National-scale Tidal Flat DEM Reconstruction Using Optical Satellite Imagery
+# National-scale Tidal Flat DEM Reconstruction Using Optical Satellite Imagery
 
-Official implementation of the **Remote Sensing of Environment (RSE, 2026)** paper for reconstructing annual **30 m tidal-flat Digital Elevation Models (DEMs)** across the UK using **Sentinel-2 and Landsat 8/9 optical imagery**, **ICESat-2 laser altimetry**, and **machine learning**.
+Code accompanying the **Remote Sensing of Environment (RSE, 2026)** paper for reconstructing annual **30 m tidal-flat Digital Elevation Models (DEMs)** across the UK using **Sentinel-2 and Landsat 8/9 optical imagery**, **ICESat-2 laser altimetry**, and **machine learning**.
 
 [![Paper](https://img.shields.io/badge/Paper-RSE%202026-orange)](https://www.sciencedirect.com/science/article/pii/S0034425726003135)
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
@@ -9,9 +9,9 @@ Official implementation of the **Remote Sensing of Environment (RSE, 2026)** pap
 
 ---
 
-# 🌊 Estuary Showcase
+## Example DEMs
 
-Representative annual tidal-flat DEMs generated for four major UK estuaries.
+Annual tidal-flat DEMs reconstructed for four UK estuaries.
 
 <table>
 <tr>
@@ -40,73 +40,67 @@ Representative annual tidal-flat DEMs generated for four major UK estuaries.
 
 ---
 
-# 📖 Overview
+## Overview
 
-Tidal flats are highly dynamic intertidal environments that play a crucial role in coastal resilience, sediment transport, blue carbon storage, and ecosystem functioning. However, their rapid morphological evolution and the difficulty of conducting field surveys make large-scale topographic mapping particularly challenging.
+Tidal flats change rapidly, and their morphology is difficult to survey in the field at national scale. This project reconstructs annual 30 m tidal-flat DEMs for the UK coastline from 2019-2024 using optical satellite imagery and ICESat-2 laser altimetry.
 
-This repository presents an optical satellite-based framework for reconstructing annual **30 m tidal-flat DEMs** at the national scale. By integrating multi-source optical information with refined ICESat-2 elevations, the framework enables efficient, accurate, and scalable tidal-flat topography reconstruction.
+The reconstruction workflow consists of three components:
 
----
+- **STAT-ICE** -- an algorithm that automatically extracts tidal-flat elevation measurements from ICESat-2 ATL03/ATL08 observations.
+- **Optical elevation proxies** -- annual composites of Normalized Annual Exposure Frequency (NAEF), NDWI, MNDWI, and Sentinel-2 Band 8A reflectance, derived from Sentinel-2 and Landsat imagery in Google Earth Engine.
+- **Random Forest regression** -- combines the optical proxies with the STAT-ICE elevations to produce the annual 30 m tidal-flat DEMs.
 
-# ✨ Highlights
-
-- 🌊 **Developed the STAT-ICE algorithm** for automatic extraction of reliable tidal-flat elevation measurements from ICESat-2 observations.
-
-- 🛰️ **Constructed four complementary optical elevation proxies** that comprehensively characterize tidal-flat morphology.
-
-- 🌍 **Integrated optical proxies and refined ICESat-2 elevations** within a Random Forest framework to generate annual 30 m tidal-flat DEMs across the UK coastline from **2019–2024**.
+The repository also includes the **Dual Tidal Flat Index (DTFI)**, a spectral index for tidal-flat mapping from Sentinel-2 and Landsat imagery.
 
 ---
 
-# 🌍 Interactive DEM Visualization
+## Interactive DEM Viewer
 
-Explore the annual tidal-flat DEM products directly in Google Earth Engine:
+A Google Earth Engine app for browsing the annual tidal-flat DEM products (2019-2024):
 
-### 👉 https://minyukui.projects.earthengine.app/view/ukdem2019-2024
+https://minyukui.projects.earthengine.app/view/ukdem2019-2024
 
 <img src="https://github.com/user-attachments/assets/12a8c531-b195-4b49-9f4b-bcb82dc563c3" width="1000">
 
 ---
 
-# 🏞️ Workflow of DEM Reconstruction
+## Reconstruction Workflow
 
 <p align="center">
 <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/Fig.3_paper4_new.jpg" width="1000">
 </p>
 
-**Figure 1.** Overall workflow of the proposed DEM reconstruction framework. Four optical elevation proxies—including the Normalized Annual Exposure Frequency (NAEF), annual mean NDWI, annual mean MNDWI, and annual mean Sentinel-2 Band 8A reflectance—are integrated with refined ICESat-2 elevations through a Random Forest model to generate annual tidal-flat DEMs.
+**Figure 1.** Overall workflow of the DEM reconstruction framework. Four optical elevation proxies (NAEF, annual mean NDWI, annual mean MNDWI, and annual mean Sentinel-2 Band 8A reflectance) are integrated with refined ICESat-2 elevations through a Random Forest model to generate annual tidal-flat DEMs.
 
 ---
 
-# 🛰️ STAT-ICE Algorithm
+## STAT-ICE Algorithm
 
 <p align="center">
 <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/Fig.6_paper4.jpg" width="1000">
 </p>
 
-**Figure 2.** Workflow of the Statistical Automated Tidal Flat Elevation Extraction from ICESat-2 (STAT-ICE) algorithm for automatically extracting reliable tidal-flat elevation measurements from ICESat-2 observations.
+**Figure 2.** Workflow of the Statistical Automated Tidal Flat Elevation Extraction from ICESat-2 (STAT-ICE) algorithm, which automatically extracts tidal-flat elevation measurements from ICESat-2 observations.
 
 ---
 
-# 🌊 Dual Tidal Flat Index (DTFI)
+## Dual Tidal Flat Index (DTFI)
 
-The **Dual Tidal Flat Index (DTFI)** is a spectral index designed for robust tidal-flat mapping using Sentinel-2 and Landsat imagery.
+The DTFI is a spectral index for tidal-flat mapping using Sentinel-2 and Landsat imagery.
 
-### 🌍 Interactive Visualization
+Interactive visualization: https://minyukui.projects.earthengine.app/view/dtfi
 
-👉 https://minyukui.projects.earthengine.app/view/dtfi
 <p align="center">
 <img src="https://github.com/GISermyk/TideFlatRecon_UK/raw/main/Image/papar5_FigS4_combine.jpg" width="1000">
 </p>
 
-**Figure 3.** Visualization of the proposed DTFI across ten representative estuaries. The figure compares DTFI with the conventional NDWI and demonstrates the resulting binary water/non-water classifications derived from Sentinel-2 and Landsat imagery.
+**Figure 3.** DTFI results for ten estuaries, compared with NDWI and the resulting binary water/non-water classifications derived from Sentinel-2 and Landsat imagery.
 
 ---
 
+## Data
 
-# 📊 Data
-
-This project is developed using:
+This project uses:
 
 - Sentinel-2 MSI and Landsat 8/9 OLI/OLI2 imagery
 - ICESat-2 ATL03/ATL08 observations
@@ -115,9 +109,9 @@ This project is developed using:
 
 ---
 
-# 📄 Citation
+## Citation
 
-If you find this repository useful, please consider citing our paper:
+If you use this repository in your research, please cite:
 
 ```bibtex
 @article{xxxx,
@@ -133,9 +127,9 @@ If you find this repository useful, please consider citing our paper:
 
 ---
 
-# 🙏 Acknowledgements
+## Acknowledgements
 
-We gratefully acknowledge the following open datasets and platforms:
+We acknowledge the following open datasets and platforms:
 
 - NASA ICESat-2 Mission
 - ESA Sentinel-2 Mission
@@ -143,7 +137,7 @@ We gratefully acknowledge the following open datasets and platforms:
 
 ---
 
-# 📜 License
+## License
 
 This project is released under the MIT License.
 
